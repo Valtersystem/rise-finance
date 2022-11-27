@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,132 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/assets/js/main.js"></script>
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
     <!-- End -- CSS -->
-    
+
     <title>Rise-Finance</title>
 </head>
-<body class="font-['Poppins']">
-    <h1 class="text-3xl font-bold bg-chart_gradient ">
-        Hello world!
-      </h1>
+
+<body class="font-['Poppins'] bg-hero-texture bg-cover bg-center">
+    <div class="">
+        <section class="xl:container mx-auto">
+            <nav class="mb-32">
+                <div class="mx-auto px-2 sm:px-6">
+                    <div class="relative flex h-16 items-center justify-between">
+                        <!-- Mobile menu button-->
+                        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                            <button type="button"
+                                class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                                aria-controls="mobile-menu" aria-expanded="false">
+                                <span class="sr-only">Open main menu</span>
+
+                                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+
+                                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- End -- Mobile menu button-->
+                        <!-- Logo -->
+                        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+
+                            <div class="flex flex-shrink-0 items-center">
+                                <a href="/">
+                                    <img class="block h-8 w-auto lg:hidden" src="/assets/image/logo.svg" alt="Logo">
+                                </a>
+                                <a href="/">
+                                    <img class="hidden h-8 w-auto lg:block" src="/assets/image/logo.svg" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Logo -->
+                        <!-- Link Desktop -->
+                        <div
+                            class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            <div class="hidden sm:ml-6 sm:block">
+                                <div class="flex space-x-4">
+
+                                    <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        aria-current="page">Dashboard</a>
+
+                                    <a href="#"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+
+                                    <a href="#"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+
+                                    <a href="#"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End --  Link Desktop -->
+                    </div>
+                </div>
+
+                <!-- Mobile menu, show/hide based on menu state. -->
+                <!-- <div class="sm:hidden" id="mobile-menu">
+                    <div class="space-y-1 px-2 pt-2 pb-3">
+
+                        <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                            aria-current="page">Dashboard</a>
+
+                        <a href="#"
+                            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+
+                        <a href="#"
+                            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+
+                        <a href="#"
+                            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+                    </div>
+                </div> -->
+                <!-- End -- Mobile menu, show/hide based on menu state. -->
+            </nav>
+
+            <div class="flex flex-row items-center justify-between pl-6 max-md:pr-6  ">
+                <div>
+                    <div class="flex flex-col text-secondary_text font-semibold text-xl90">
+                        <span class="max-2xl:text-5xl leading-lh5">
+                            <span class="gradientColor">Scale Fintech </span>
+                            <span class="text-secondary_text">Safe And Secure</span>
+                        </span>
+
+                        <span class="max-2xl:text-sm font-medium text-xl22 mt-6 max-sm:text-justify">
+                            Ship your fintech products to your customers with fast and
+                            reliable processes. Secure and highly customizable. Rise Finance is the best partner for you
+                            if you want to scale your finance products worldwide.
+                        </span>
+                    </div>
+                    <button class="uppercase text-secondary_text text-lg font-semibold px-16 py-7 max-2xl:px-8 max-2xl:py-4  gradientBorder mt-9">consultation</button>
+                </div>
+                <img src="/assets/image/creditcard.svg" alt="image the credit cart" class="max-md:hidden max-lg:max-w-sm max-w-3xl max-2xl:max-w-2xl">
+            </div>
+
+            <div class="flex flox-row max-md:flex-wrap items-center content-center justify-evenly pb-32 pt-40 max-md:justify-between max-md:px-6">
+                <img src="/assets/image/biglogoipsum.svg" alt="logo ipsum" class="max-md:w-32">
+                <img src="/assets/image/smallogoipsum.svg" alt="small logo ipsum" class="max-md:w-32">
+                <img src="/assets/image/mediumlogoipsum.svg" alt="medium logo ipsum" class="max-md:w-32">
+                <img src="/assets/image/smallogoipsum.svg" alt="small logo ipsum" class="max-md:w-32">
+            </div>
+        </section>
+    </div>
+
+    <!-- Main -->
+    <!-- <div class="">
+        <section class="xl:container mx-auto">
+            
+        </section>
+    </div> -->
+    <!-- End -- Main -->
 </body>
+
 </html>

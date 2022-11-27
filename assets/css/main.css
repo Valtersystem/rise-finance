@@ -3,3 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.gradientColor {
+    background: linear-gradient(263.24deg, #9130F4 21.05%, #4646F9 77.63%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    text-fill-color: transparent !important;
+}
+
+.gradientBorder {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #9130F4, #4646F9);
+}
