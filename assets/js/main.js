@@ -14,7 +14,7 @@ tailwind.config = {
               text_title_footer: '#92989F',
         },
         backgroundImage: {
-          'hero-texture': "url('./assets/image/herosection.svg')",
+          'hero-texture': "url('../assets/image/herosection.svg')",
         },
         fontSize: {
           xl90: '5.6rem',
